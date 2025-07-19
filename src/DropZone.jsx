@@ -8,8 +8,8 @@ function Dropzone() {
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
 
   return (
-    <form>
-        <div {...getRootProps({className :'p-16 mt-10 bg-gray-800 rounded-lg shadow-lg'})} >
+    <form class = "flex items-center justify-center">
+        <div {...getRootProps({className :'p-16 mt-10 bg-gray-800 rounded-lg shadow-lg w-[800px] h-[150px] flex justify-center'})} >
         <input {...getInputProps()} />
         {
             isDragActive ?(
