@@ -33,9 +33,8 @@ function Dropzone() {
     )}
   </div>
 
-  <aside className="mt-4  w-[800px]">
-    <h4 className="text-white  mb-2"> Files</h4>
-    <ul className="text-white list-disc list-inside">
+  <aside className="flex justify-center items-center mt-4  w-[800px]">
+    <ul className="text-white">
       {acceptedFiles}
     </ul>
   </aside>
